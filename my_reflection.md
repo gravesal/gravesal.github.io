@@ -10,7 +10,7 @@ Does it make you nervous or protective? Does it feel like utopia?
 I think is extremely important. We have a lot of resources that wouldn't available to help alot of people if they weren't open sourced. It allows people to help each other, and I for one will probably definitely need help! Its definitely a utopia in my book from now on.
 
 Assess the importance of using licenses
-Bottom line it informs people and other users about what they can and can't do with someone's work depending on the type of license that they have.
+Bottom line is it informs people and other users about what they can and can't do with someone's work depending on the type of license that they have.
 
 What concepts were solidified in the challenge? Did you have any "aha" moments? What did you struggle with?
 How to make a repo was solidified in this challenge. While I was struggling through making my own repository, I realized the proper way of creating a repo, I had mede the mistake of just making a directory that was titled with my usrname and github.io and that was completely wrong. I figured that out when I tried to use git on it and it wasn't even a repo! I get it now!
