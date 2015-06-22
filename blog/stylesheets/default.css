@@ -1,7 +1,7 @@
 header{
     align:center;
 }
-article, section, p{
+article, section{
     font-family: 'Slabo 27px', serif;
     color:purple;
 }
