@@ -7,7 +7,9 @@ Open source is when you share a computer program for free and allow anyone to us
 
 What do you think about Open Source?
 Does it make you nervous or protective? Does it feel like utopia?
-I think is extremely important. We have a lot of resources that wouldn't available to help alot of people if they weren't open sourced. It allows people to help each other, and I for one will probably definitely need help! Its definitely a utopia in my book from now on.
+
+I think is extremely important. We have a lot of resources that wouldn't available to help alot of people if they weren't open sourced. It allows people to help each other, and I for one will probably definitely need help! Its definitely a utopia in my book because of its usefulness.
+
 
 Assess the importance of using licenses
 Bottom line is it informs people and other users about what they can and can't do with someone's work depending on the type of license that they have.
