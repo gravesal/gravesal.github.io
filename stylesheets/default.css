@@ -1,0 +1,28 @@
+header{
+    align:center;
+}
+article, section, p{
+    font-family: 'Slabo 27px', serif;
+    color:purple;
+}
+section{
+    position:fixed;
+    top:30px;
+    right:5px;
+    border: solid black 1px;
+    width:25%;
+    height:auto;
+}
+body section section img{
+
+    position:relative;
+    top:325px;
+    width: 43px;
+    height: auto;
+    margin:0;
+}
+
+a{
+
+    padding-left:2em;
+}
