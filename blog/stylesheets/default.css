@@ -1,9 +1,11 @@
-header{
+h1{
     align:center;
 }
 
 body{
     background-color: blue;
+    font-family: 'Slabo 27px', serif;
+    color:purple;
 }
 
 article, section{
