@@ -1,6 +1,11 @@
 header{
     align:center;
 }
+
+body{
+    background-color: yellow;
+}
+
 article, section, p{
     font-family: 'Slabo 27px', serif;
     color:purple;
