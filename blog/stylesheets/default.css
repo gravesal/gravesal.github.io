@@ -7,14 +7,9 @@ body{
     font-family: 'Slabo 27px', serif;
     color:purple;
 }
-body section{
-    color:yellow;
-}
-article, section{
-    font-family: 'Slabo 27px', serif;
-    color:purple;
-}
-section{
+
+
+/*section{
     position:fixed;
     top:30px;
     right:5px;
@@ -22,6 +17,7 @@ section{
     width:25%;
     height:auto;
 }
+
 body section section img{
 
     position:relative;
@@ -35,3 +31,4 @@ a{
 
     padding-left:2em;
 }
+*/
