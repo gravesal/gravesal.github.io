@@ -7,7 +7,9 @@ body{
     font-family: 'Slabo 27px', serif;
     color:purple;
 }
-
+p{
+    color:yellow;
+}
 article, section{
     font-family: 'Slabo 27px', serif;
     color:purple;
