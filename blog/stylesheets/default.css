@@ -1,6 +1,11 @@
 header{
     align:center;
 }
+
+body{
+    backaground-color: Lavender;
+}
+
 article, section{
     font-family: 'Slabo 27px', serif;
     color:purple;
