@@ -12,10 +12,12 @@ body{
     background-color: rgb(235,233,249);
     font-family: 'Slabo 27px', serif;
     color:purple;
-    border:solid black 5em;
-    padding: 3em;
+    border:solid purple 5em;
+    margin: 2em;
 }
-
+footer{
+    text-align:center;
+}
 
 /*section{
     position:fixed;
