@@ -1,11 +1,12 @@
 h1{
-    align:center;
+    text-align: center;
 }
 
 body{
-    background-color: orange;
+    background-color: #f0f8ff;
     font-family: 'Slabo 27px', serif;
     color:purple;
+    border:solid black 5em;
 }
 
 
