@@ -12,6 +12,9 @@ h3{
 h4{
     text-align: right;
 }
+img{
+    float:center;
+}
 body{
     background-color: rgb(235,233,249);
     font-family: 'Slabo 27px', serif;
