@@ -1,11 +1,12 @@
-<!DOCTYPE html><head>
+<!DOCTYPE html><html>
+<head>
   <title>Bloggin With DBC</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="blog-posts/index.html">
+  <link rel="stylesheet" type="text/css" href="stylesheets/default.css">
   <link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
 </head>
 
-<body><main>
+<body>
   <h1>Arrays and Hashes</h1>
   <h2>Comparing the Two</h2>
   <h4>June 28, 2015</h4>
@@ -14,11 +15,11 @@
 
   <section>
     <p>
-      There are many ways that one can manipulate and store data, and depending upon how that data will be used and accessed determines which method would be the best option. Two of the most popular forms of storing data are arrays and hashes, and each has there own qualities that can make them an ideal choice. Lets explore them both, starting with arrays.
+      There are many ways that one can manipulate and store data, and depending upon how that data will be used and accessed determines which method would be the best option. Two of the most popular forms of storing data are arrays and hashes, and each has their own qualities that can make them an ideal choice. Lets explore them both, starting with arrays.
     </p>
 
     <p>
-      Arrays store data by using a zero-based integered indexing system. A zero-based indexing system means that the first slot of the array is always zero and the array has as many slots as there are for each piece of data to have its own slot yielding length-1 slots. For instance, if someone had an array called "lunch" of three things, say an apple, a soda, and a sandwich, and wanted to access the soda, they would have to call the name of the array and the index where the soda is located. In this case they would say puts lunch[1]. This is good to use if they wanted to iterate through an array and access elements in order or of a certain magnitude.
+      Arrays store data by using a zero-based integered indexing system. A zero-based indexing system means that the first slot of the array is always zero and the array has as many slots as there are for each piece of data to have its own slot yielding a number of slots equivalent to the number of data pieces, which is also known as its length, minus one. For instance, if someone had an array called "lunch" that had three things in it, say an apple, a soda, and a sandwich, and wanted to access the soda, they would have to call the name of the array and the index where the soda is located. In this case they would say 'puts lunch[1]'. This is good to use if they wanted to iterate through an array and access elements in order or get one particular thing from the array.
 
     </p>
 
@@ -26,7 +27,8 @@
     <img src="images/arrays-ex.png" alt="Array Example"></img></a>
     </p>
 
-    <p>Hashes are similar to arrays except that hashes do not use zero based indexing as keys to store items. Instead hashes keep groups of data, regardless of object type together and stores it under another key name, not a prenumbered slot. Hashes allow a computer to perform more complex filtering and selection operations. One thing that make hashes stand out is its quick lookup capability in faster than linear time. Hashes must have unique keys since that is where the information of values will be stored, but the values don't have to be  unique. When using hashes, the function is typically performedd much faster than arrays so it would be ideal if I had a gigantic amount of data and wanted to access certain pieces of it.  For the interest of time, the example will show its everyday functionality in how it deals with normal list of data and how the keys work.
+    <p>
+      Hashes are similar to arrays except that hashes do not use zero-based indexing as keys to store items. Instead hashes keep groups of data together, regardless of object type, and stores it under another key name, not a prenumbered slot. Hashes allow a computer to perform more complex filtering and selection operations. One thing that make hashes stand out is its quick lookup capability in faster than linear time. Hashes must have unique keys since that is where the information of values will be stored, but the values don't have to be  unique. When using hashes, the function is typically performedd much faster than arrays so it would be ideal if I had a gigantic amount of data and wanted to access certain pieces of it. For the interest of time, the example will show its everyday functionality in how it deals with normal list of data and how the keys work.
     </p>
 
     <p>
@@ -38,38 +40,30 @@
     </p>
       <!-- copy and paste as many sections as you want to add paragraphs -->
   </section>
-</main>
 
-  <section>
-    <h4> Comments </h4>
-
-
-    <input type="text" size="50" placeholder="type comments here">
-
-  </section>
 
 
   <section>
     <table>
-    <tbody>
-      <tr>
-        <td><a href="http://gravesal.github.io/blog/t1-git-blog.html">T-1</a></td>
+      <tbody>
+        <tr>
+          <td><a href="http://gravesal.github.io/blog/t1-git-blog.html">T-1</a></td>
 
-        <td><a href="https://gravesal.github.io/blog/t2-css-design.html">T-2</a> </td>
+          <td><a href="https://gravesal.github.io/blog/t2-css-design.html">T-2</a> </td>
 
-        <td><a href="http://gravesal.github.io/blog/t3-git-blog.html">T-3 </a></td>
+          <td><a href="http://gravesal.github.io/blog/t3-arrrays-hashes.html">T-3 </a></td>
 
-        <td><a href="http://gravesal.github.io/blog/t4-enumerable-methods.html">T-4</a> </td>
+          <td><a href="http://gravesal.github.io/blog/t4-enumerable-methods.html">T-4</a> </td>
 
-        <td><a href="http://gravesal.github.io/blog/t5-ruby-classes.html">T-5</a> </td>
+          <td><a href="http://gravesal.github.io/blog/t5-ruby-classes.html">T-5</a> </td>
 
-        <td><a href="http://gravesal.github.io/blog/t6-oop-concepts.html">T-6</a></td>
+          <td><a href="http://gravesal.github.io/blog/t6-oop-concepts.html">T-6</a></td>
 
-        <td><a href="http://gravesal.github.io/blog/t7-git-blog.html">T-7</a></td>
+          <td><a href="http://gravesal.github.io/blog/t7-JavaScript.html">T-7</a></td>
 
-        <td><a href="http://gravesal.github.io/blog/t8-git-blog.html">T-8</a></td>
+          <td><a href="http://gravesal.github.io/blog/t8-tech.html">T-8</a></td>
 
-        <td><a href="http://gravesal.github.io/blog/t9-git-blog.html">T-9</a> </td>
+
       </tr>
 
       <tr>
@@ -87,7 +81,14 @@
         <td><a href="http://gravesal.github.io/blog/c7-values.html">C-7</a> </td>
 
         <td><a href="http://gravesal.github.io/blog/c8-conflict.html">C-8</a> </td>
-        </tr></tbody></table>
+
+        <td><a href="http://gravesal.github.io/blog/c9-git-blog.html">C-9</a> </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer><a href="http://gravesal.github.io/index.html">HOME</a>
+  </footer>
   </section>
 
 </body></html>
