@@ -1,20 +1,18 @@
-<!DOCTYPE html><head>
+<!DOCTYPE html><html>
+<head>
   <title>Bloggin With DBC</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="blog-posts/index.html">
+  <link rel="stylesheet" type="text/css" href="stylesheets/default.css">
   <link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
 </head>
 
-<body><main>
+<body>
   <h1>Enumerable Methods</h1>
   <h2>#Cycle</h2>
   <h4>July 15, 2015</h4>
 
-  <!--<h4>Home_Button</h4><input type="text" size="25" placeholder="search"> -->
-
-  <section>
     <p>
-      Enumerables are known for their iterative properties. The Enumerable is an extremely powerful tool in Ruby. It allows for the traversal and searching of methods and as such can sort methods with great ease. Using the enumerable on an object requires that the method that the object is made with utilizes an #each method where it is uses iteration to go through (or yield) (2) items and use an operator to help order,or sort the members of a collection that the enumerator will go through.
+      Enumerables are known for their iterative properties. The Enumerable is an extremely powerful tool in Ruby. It allows for the traversal of and searching through methods and as such, can sort methods with great ease. Using the enumerable on an object requires that the method the object is made with utilizes an #each method where it uses iteration to go through or yield to items. The Enumerable uses an operator to help order or sort the members of a collection that it goes through.
 
     </p>
     <p>
@@ -22,61 +20,49 @@
 
     </p>
     <p>
-One enumerable worth mentioning is #cycle
-Cycle is used to "cycle" or through a block for a given number of times or forever if no number is specified! If the collection that it is supposed to yield to is empty, then nothing happens, and if the loop finishes without interruption, then it returns nil.
+      One enumerable worth mentioning is #cycle. Cycle is used to "cycle" or go through a block for a given number of times or forever if no number is specified! If the collection that it is supposed to yield to is empty, then nothing happens, and if the loop finishes without interruption, then it returns nil.
 
     </p>
 
     <p>
-    <img src="images/cyclewith2.png" alt="#Cycle Example with number"></img></a>
+      <img src="images/cyclewith2.png" alt="#Cycle Example with number"></img></a>
     </p>
 
     <p>
-    <img src="images/cycle_infinity.png" alt="#Cycle Example with no number specified"></img></a>
+      <img src="images/cycle_infinity.png" alt="#Cycle Example with no number specified"></img></a>
     </p>
 
     <p>
-      Although #cycle specifies the number of times it will iterate through a block, it does not allow you to specify the number of elements to cycle through. Another thing to be conscious about is that if you want to cycle on forever, all of your important logic and commands, must go insde the block that will be cycled through infinitely because if not, that code may never get executed.
+      Although #cycle specifies the number of times it will iterate through a block, it does not allow you to specify the number of elements to cycle through. Another thing to be conscious about is that if you want to cycle on forever, all of your important logic and commands must go insde the block that will be cycled through infinitely because if not, that code may never get executed.
     </p>
 
-
-
     <p>
-When #Cycle is passed with an object, these problems are bypassed because it can be used with other enumerators. That leads us into new territory, chaining. Chaining is when you call one enumerator after the other on a single object. An example would be something like: obeject.reverse_each.map but thats a lesson for another day!
+      When #Cycle is passed with an object, these problems are bypassed because it can be used with other enumerators. That leads us into new territory, chaining. Chaining is when you call one enumerator after the other on a single object. An example would be something like: obeject.reverse_each.map but thats a lesson for another day!
     </p>
       <!-- copy and paste as many sections as you want to add paragraphs -->
-  </section>
-</main>
-
-  <section>
-    <h4> Comments </h4>
-
-
-    <input type="text" size="50" placeholder="type comments here">
-
   </section>
 
 <section>
      <table>
-    <tbody>
-      <tr>
-        <td><a href="http://gravesal.github.io/blog/t1-git-blog.html">T-1</a></td>
+      <tbody>
+        <tr>
+          <td><a href="http://gravesal.github.io/blog/t1-git-blog.html">T-1</a></td>
 
-        <td><a href="https://gravesal.github.io/blog/t2-css-design.html">T-2</a> </td>
+          <td><a href="https://gravesal.github.io/blog/t2-css-design.html">T-2</a> </td>
 
-        <td><a href="http://gravesal.github.io/blog/t3-git-blog.html">T-3 </a></td>
+          <td><a href="http://gravesal.github.io/blog/t3-arrrays-hashes.html">T-3 </a></td>
 
-        <td><a href="http://gravesal.github.io/blog/t4-enumerable-methods.html">T-4</a> </td>
+          <td><a href="http://gravesal.github.io/blog/t4-enumerable-methods.html">T-4</a> </td>
 
-        <td><a href="http://gravesal.github.io/blog/t5-ruby-classes.html">T-5</a> </td>
+          <td><a href="http://gravesal.github.io/blog/t5-ruby-classes.html">T-5</a> </td>
 
-        <td><a href="http://gravesal.github.io/blog/t6-oop-concepts.html">T-6</a></td>
+          <td><a href="http://gravesal.github.io/blog/t6-oop-concepts.html">T-6</a></td>
 
-        <td><a href="http://gravesal.github.io/blog/t7-git-blog.html">T-7</a></td>
+          <td><a href="http://gravesal.github.io/blog/t7-JavaScript.html">T-7</a></td>
 
-        <td><a href="http://gravesal.github.io/blog/t8-git-blog.html">T-8</a></td>
+          <td><a href="http://gravesal.github.io/blog/t8-tech.html">T-8</a></td>
 
-        <td><a href="http://gravesal.github.io/blog/t9-git-blog.html">T-9</a> </td>
+
       </tr>
 
       <tr>
@@ -94,7 +80,14 @@ When #Cycle is passed with an object, these problems are bypassed because it can
         <td><a href="http://gravesal.github.io/blog/c7-values.html">C-7</a> </td>
 
         <td><a href="http://gravesal.github.io/blog/c8-conflict.html">C-8</a> </td>
-        </tr></tbody></table>
+
+        <td><a href="http://gravesal.github.io/blog/c9-git-blog.html">C-9</a> </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer><a href="http://gravesal.github.io/index.html">HOME</a>
+  </footer>
 </section>
 
 
