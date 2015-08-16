@@ -1,11 +1,12 @@
-<!DOCTYPE html><head>
+<!DOCTYPE html><html>
+<head>
   <title>Bloggin With DBC</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="blog-posts/index.html">
+  <link rel="stylesheet" type="text/css" href="stylesheets/default.css">
   <link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
 </head>
 
-<body><main>
+<body>
   <h1>Iterators!</h1>
   <h2>Blocks, Procs, and Lamdas</h2>
   <h4>July 27, 2015</h4>
@@ -14,14 +15,14 @@
 
   <section>
     <p>
-      As has been iterated time and time agin, Ruby is a very powerful language with loads of capabilities. Those capabilities allow it to perform functions and create many lines of code with fairly terse input. The methods by which this is accomplished are done with different types of iterators. While Ruby has iterators that yield similar results, the mechanisms by whuch the iterations are accomplished differ in format, but nonetheless fall under the same category called closures. Closures are basically bits of code that that we can pass around and can refer to the lines of code that it stands for. The first one we will discuss is the block. The block allows you to simulate a #loop of sorts, for example, say we have a loop that iterates through an array and grabs all of the even numbers. </p>
+      As has been iterated time and time agin, Ruby is a very powerful language with loads of capabilities. Those capabilities allow it to perform functions and create many lines of code with fairly terse input. The methods by which this is accomplished are done with different types of iterators. While Ruby has iterators that yield similar results, the mechanisms by which the iterations are accomplished differ in format, but nonetheless fall under the same category called closures. Closures are basically bits of code that we can pass around and can refer to the lines of code that it stands for. The first one we will discuss is the block. The block allows you to simulate a #loop of sorts, for example, say we have a loop that iterates through an array and grabs all of the even numbers. </p>
 
       <p>
         <img src="images/for_loop.png" alt="Loop Example"></img></a>
 
     </p>
 
-      <p>We can create a block that does that exact same thing. The only difference is that sometimes we are able to return a value in for loops and blocks sometimes change the original array or variable we began with as in the example below, which simply served to show its similarity to loops. Blocks are very useful since they enable the programmer to create a number of stipulations to sort and manipulate their data.
+      <p>We can create a block that does that exact same thing. The only difference is that sometimes we are able to return a value in #for_loops, and blocks sometimes change the original array or variable we began with as in the example below, which simply served to show its similarity to loops. Blocks are very useful since they enable the programmer to create a number of stipulations to sort and manipulate their data.
 
     </p>
 
@@ -30,7 +31,7 @@
     </p>
 
     <p>
-      Another powerful iterator tool available to programmers is the "Proc", which  is short for "Procedure." The awesome thing about a proc is that is is actually a bloc in variable form. Say you want to use a block on a variable or object? Well you can! And you can do it multiple times since it is saved and us knows in the program as a variable. This allows the programmer to save a lot of time and enables them to have many options for data that needs to be iterated. Say you want to use two different blocks on a variable, well procs allow you to do that! In order to implement a proc, create the block and give it a variable name, tand then call it with an ampersand pre-appended to it and voila! There you have a usable proc to be passed as a parameter to a function.You can also call the Proc and pass a parameter to it as shown below.
+      Another powerful iterator tool available to programmers is the "Proc", which  is short for "Procedure." The awesome thing about a proc is that it is actually a bloc in variable form. Say you want to use a block on a variable or object? Well you can! And you can do it multiple times since it is saved and is known in the program as a variable. This allows the programmer to save a lot of time and enables them to have many options for data that needs to be iterated. Say you want to use two different blocks on a variable, well procs allow you to do that! In order to implement a proc, create the block and give it a variable name, and then call it with an ampersand pre-appended to it and voila! There you have a usable proc to be passed as a parameter to a function.You can also call the Proc and pass a parameter to it as shown below.
     </p>
 
     <p>
@@ -38,7 +39,7 @@
     </p>
 
     <p>
-      The next iteration tool we will discuss are lambdas. Lambdas are similar to procs but have slightly more functionality that procs. Lambdas be more stringent on its parameter restrictions, but its return capabilities allow you a greater depth of performance. The lambda returns from the actual lambda whereas return in procs and blocks returns from the method that it is inside of. This allows more interaction inside of a single method even after manipulating data.
+      The next iteration tool we will discuss is the lambda. Lambdas are similar to procs but have slightly more functionality than procs. Lambdas are more stringent on its parameter restrictions, but its return capabilities allow you a greater depth of performance. The lambda returns from the actual lambda whereas when return is used in procs and blocks, it returns from the method that it is inside of. This allows more interaction inside of a single method even after manipulating data.
     </p>
 
     <p>
@@ -50,35 +51,29 @@
     </p>
       <!-- copy and paste as many sections as you want to add paragraphs -->
   </section>
-</main>
+
+
 
   <section>
-    <h4> Comments </h4>
-
-
-    <input type="text" size="50" placeholder="type comments here">
-
-  </section>
-
-<section>
     <table>
-    <tbody>
-      <tr>
-        <td><a href="http://gravesal.github.io/blog/t1-git-blog.html">T-1</a></td>
+      <tbody>
+        <tr>
+          <td><a href="http://gravesal.github.io/blog/t1-git-blog.html">T-1</a></td>
 
-        <td><a href="https://gravesal.github.io/blog/t2-css-design.html">T-2</a> </td>
+          <td><a href="https://gravesal.github.io/blog/t2-css-design.html">T-2</a> </td>
 
-        <td><a href="http://gravesal.github.io/blog/t3-git-blog.html">T-3 </a></td>
+          <td><a href="http://gravesal.github.io/blog/t3-arrays-hashes.html">T-3 </a></td>
 
-        <td><a href="http://gravesal.github.io/blog/t4-enumerable-methods.html">T-4</a> </td>
+          <td><a href="http://gravesal.github.io/blog/t4-enumerable-methods.html">T-4</a> </td>
 
-        <td><a href="http://gravesal.github.io/blog/t5-ruby-classes.html">T-5</a> </td>
+          <td><a href="http://gravesal.github.io/blog/t5-ruby-classes.html">T-5</a> </td>
 
-        <td><a href="http://gravesal.github.io/blog/t6-oop-concepts.html">T-6</a></td>
+          <td><a href="http://gravesal.github.io/blog/t6-oop-concepts.html">T-6</a></td>
 
-        <td><a href="http://gravesal.github.io/blog/t7-git-blog.html">T-7</a></td>
+          <td><a href="http://gravesal.github.io/blog/t7-JavaScript.html">T-7</a></td>
 
-        <td><a href="http://gravesal.github.io/blog/t8-git-blog.html">T-8</a></td>
+          <td><a href="http://gravesal.github.io/blog/t8-tech.html">T-8</a></td>
+
 
       </tr>
 
@@ -97,8 +92,15 @@
         <td><a href="http://gravesal.github.io/blog/c7-values.html">C-7</a> </td>
 
         <td><a href="http://gravesal.github.io/blog/c8-conflict.html">C-8</a> </td>
-        </tr></tbody></table>
 
-  </section>
+        <td><a href="http://gravesal.github.io/blog/c9-git-blog.html">C-9</a> </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer><a href="http://gravesal.github.io/index.html">HOME</a>
+  </footer>
+
+</section>
 
 </body></html>
