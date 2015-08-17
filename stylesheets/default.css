@@ -1,33 +1,42 @@
-body header{
-    align:center;
-}
+
 
 body{
-    background-color: #f0f8ff;
-}
-
-article, section, p{
+    background-color: rgb(235,233,249);
     font-family: 'Slabo 27px', serif;
     color:purple;
+    margin: 1em;
+    border:solid black 5em;
+    padding: 3em;
+    }
+body article {
+    padding-right:15em;
 }
+
 section{
+    text-align: center;
     position:fixed;
-    top:30px;
-    right:5px;
-    border: solid black 1px;
-    width:25%;
+    top:35px;
+    right:7em;
+
+    /*border: solid black 1px;*/
+    width:15%;
     height:auto;
 }
+
+body section {
+    float:relative;
+}
+
 body section section img{
 
     position:relative;
-    top:325px;
-    width: 43px;
+    top:340px;
+    width: 30px;
     height: auto;
     margin:0;
 }
 
 a{
 
-    padding-left:2em;
+ padding:2px;
 }
