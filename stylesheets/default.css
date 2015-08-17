@@ -17,7 +17,7 @@ section{
     position:fixed;
     top:35px;
     right:7em;
-
+    border-radius:9px;
     /*border: solid black 1px;*/
     width:15%;
     height:auto;
@@ -28,7 +28,7 @@ body section {
 }
 
 body section section img{
-
+    border-radius:3px;
     position:relative;
     top:340px;
     width: 30px;
